@@ -1,0 +1,105 @@
+body {
+    background-color: #C5DFF8;
+}
+
+#n4v {
+    background-color: #7895CB;
+    
+}
+
+
+.h1 {
+    text-align: center;
+    color: #4A55A2;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 40pt;
+
+}
+
+#arthurg {
+    margin-top: 9rem;
+}
+
+.h2 {
+    text-align: center;
+    color: #A0BFE0;
+    font-family: serif;
+    font-style: italic;
+    font-size: 20pt;
+}
+
+#hello {
+    text-align: center;
+    color: aliceblue;
+    margin-top: 8rem;
+    margin: 4rem auto; 
+    padding: 2rem; 
+    max-width: 600px;
+    background-color: #A0BFE0;
+    border-radius: 10%;
+    font-size: 14pt; 
+    line-height: 1.5; 
+}
+
+
+
+#skills {
+    margin-top: 8rem;
+    text-align: center;
+}
+
+#skills p {
+    color: #4A55A2;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    margin: 5rem;
+    
+}
+
+.flex-container p {
+    text-align: left;
+    float: left;
+}
+.js {
+    width: 150px;
+    height: 150px;
+}
+.karate {
+    width: 150px;
+    height: 150px;
+}
+
+@media (max-width: 500px) {
+    .flex-container {
+    flex-direction: column
+}} 
+
+#me img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;    
+}
+
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 40pt;
+    background-color: #0dcaf0;
+    color: white;
+    text-align: center;
+  }
+
+  .footer a {
+    color: white;
+    line-height: 40pt
+  }
